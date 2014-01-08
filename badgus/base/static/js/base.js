@@ -19,7 +19,7 @@ $(document).ready(function () {
     var signout_url = $('.browserid-signout').attr('href');
 
     $('.browserid-signin').click(function () {
-        navigator.id.request();
+        navigator.id.request({'siteLogo': '/static/img/logo.png', 'termsOfService': 'https://firefox.club.tw/tos', 'privacyPolicy': 'https://www.mozilla.org/en-US/privacy/'});
         return false;
     });
 
