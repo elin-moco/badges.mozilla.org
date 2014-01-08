@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: badges\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-07 00:31-0700\n"
-"PO-Revision-Date: 2014-01-08 14:06+0800\n"
+"PO-Revision-Date: 2014-01-08 18:24+0800\n"
 "Last-Translator: elin <elin@mozilla.com>\n"
 "Language-Team: Mozilla Taiwan <tw-mktg@mozilla.com>\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "頒發給 {user} 的獎章"
 #: badgus/base/templates/badger/awards_list.html:7
 #: badgus/base/templates/badger/badge_detail.html:69
 msgid "Recent badge awards"
-msgstr "最近頒發的獎章"
+msgstr "最近頒發紀錄"
 
 #: badgus/base/templates/badger/awards_list.html:16
 msgid "Awarded badges for {badge}"
