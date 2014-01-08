@@ -19,7 +19,10 @@ $(document).ready(function () {
     var signout_url = $('.browserid-signout').attr('href');
 
     $('.browserid-signin').click(function () {
-        navigator.id.request({'siteLogo': '/static/img/logo.png', 'termsOfService': 'https://firefox.club.tw/tos', 'privacyPolicy': 'https://www.mozilla.org/en-US/privacy/'});
+        navigator.id.request({
+            'siteName': '謀智榮譽榜', 'siteLogo': '/static/img/logo.png',
+            'termsOfService': 'https://firefox.club.tw/tos', 'privacyPolicy': 'https://www.mozilla.org/en-US/privacy/',
+            'backgroundColor': '#FFFFFF'});
         return false;
     });
 

@@ -10,6 +10,8 @@ $(document).ready(function() {
                 $e.val(assertion.toString());
                 $e.parent().submit();
             }
-        }, {'siteLogo': '/static/img/logo.png', 'termsOfService': 'https://firefox.club.tw/tos', 'privacyPolicy': 'https://www.mozilla.org/en-US/privacy/'});
+        }, {'siteName': '謀智榮譽榜', 'siteLogo': '/static/img/logo.png',
+            'termsOfService': 'https://firefox.club.tw/tos', 'privacyPolicy': 'https://www.mozilla.org/en-US/privacy/',
+            'backgroundColor': '#FFFFFF'});
     });
 });
