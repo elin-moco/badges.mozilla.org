@@ -1,71 +1,71 @@
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: badges\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-07 00:31-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2014-01-08 14:06+0800\n"
+"Last-Translator: elin <elin@mozilla.com>\n"
+"Language-Team: Mozilla Taiwan <tw-mktg@mozilla.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
+"X-Generator: Poedit 1.6.3\n"
+"Language: zh_TW\n"
 
 #: badgus/badger_api/views.py:57
 msgid "email list is required"
-msgstr ""
+msgstr "email 清單是必填欄位"
 
 #: badgus/badger_api/views.py:103
 msgid "Unsupported content-type: %s"
-msgstr ""
+msgstr "不支援的檔案格式：%s"
 
 #: badgus/badger_api/views.py:108
 msgid "Request parsing error: %s"
-msgstr ""
+msgstr "請求解析錯誤：%s"
 
 #: badgus/base/templates/badger/award_delete.html:18
 msgid "Delete Award"
-msgstr ""
+msgstr "捨棄獎章"
 
 #: badgus/base/templates/badger/award_delete.html:30
 msgid "Delete this award, are you sure?"
-msgstr ""
+msgstr "你確定要捨棄此獎章嗎？"
 
 #: badgus/base/templates/badger/award_delete.html:32
 msgid "Yes, delete award"
-msgstr ""
+msgstr "是的，捨棄獎章"
 
 #: badgus/base/templates/badger/award_detail.html:18
 #: badgus/base/templates/badger/badge_detail.html:18
 msgid "{title} (JSON)"
-msgstr ""
+msgstr "{title} (JSON)"
 
 #: badgus/base/templates/badger/award_detail.html:39
 msgid "Your Awarded Badge: {badge_title}"
-msgstr ""
+msgstr "你得到的獎章： {badge_title}"
 
 #: badgus/base/templates/badger/award_detail.html:41
 msgid "Awarded Badge: {badge_title}"
-msgstr ""
+msgstr "得到的獎章 {badge_title}"
 
 #: badgus/base/templates/badger/award_detail.html:55
 #: badgus/base/templates/badger/nomination_detail.html:24
 msgid "Actions:"
-msgstr ""
+msgstr "動作："
 
 #: badgus/base/templates/badger/award_detail.html:58
 msgid "Delete award"
-msgstr ""
+msgstr "捨棄獎章："
 
 #: badgus/base/templates/badger/award_detail.html:62
 #: badgus/base/templates/badger/badge_detail.html:45
 msgid "Share:"
-msgstr ""
+msgstr "分享："
 
 #: badgus/base/templates/badger/award_detail.html:68
 msgid "Add this badge to your Mozilla Badge Backpack"
-msgstr ""
+msgstr "將此獎章加入你的  Mozilla 獎章背包 （Mozilla Badge Backpack）"
 
 #: badgus/base/templates/badger/awards_by_badge.html:7
 #: badgus/base/templates/badger/awards_by_user.html:7
@@ -73,32 +73,62 @@ msgstr ""
 #: badgus/base/templates/badger/badges_by_user.html:7
 #: badgus/profiles/templates/profiles/profile_view.html:7
 msgid "Recent awards"
-msgstr ""
+msgstr "最近頒發的獎章"
 
 #: badgus/base/templates/badger/awards_by_badge.html:16
 msgid "Badge detail for {title}"
+msgstr "{title} 徽章的詳細說明"
+
+#: badgus/base/templates/badger/base.html:40
+msgid "Badges"
+msgstr "所有獎章"
+
+#: badgus/base/templates/badger/base.html:44
+msgid "Staff Tools"
+msgstr "管理員工具"
+
+#: badgus/base/templates/badger/base.html:55
+msgid ""
+"Welcome back, <a class=\"signed-in-user\" data-email=\"%(user_email)s\" href="
+"\"%(user_url)s\">%(user_name)s</a>"
 msgstr ""
+"歡迎光臨！<a class=\"signed-in-user\" data-email=\"%(user_email)s\" href="
+"\"%(user_url)s\">%(user_name)s</a>"
+
+#: badgus/base/templates/badger/base.html:61
+msgid "Sign out"
+msgstr "登出"
+
+#: badgus/base/templates/badger/base.html:103
+msgid ""
+"The code that runs this site is Open Source and available at <a href="
+"\"{url}\">{url}</a>."
+msgstr "本站使用的開放原始碼軟體來源在此<a href=\"{url}\">{url}</a>"
+
+#: badgus/base/templates/badger/base.html:106
+msgid "If you have problems, <a href=\"{url}\">please file an issue</a>."
+msgstr "若發現問題，<a href=\"{url}\">請回報給我們</a>。"
 
 #: badgus/base/templates/badger/awards_by_badge.html:23
 msgid "Awards"
-msgstr ""
+msgstr "頒發的獎章"
 
 #: badgus/base/templates/badger/awards_by_user.html:14
 msgid "Awards for {user}"
-msgstr ""
+msgstr "頒發給 {user} 的獎章"
 
 #: badgus/base/templates/badger/awards_list.html:7
 #: badgus/base/templates/badger/badge_detail.html:69
 msgid "Recent badge awards"
-msgstr ""
+msgstr "最近頒發的獎章"
 
 #: badgus/base/templates/badger/awards_list.html:16
 msgid "Awarded badges for {badge}"
-msgstr ""
+msgstr "頒發過的 {badge} 獎章"
 
 #: badgus/base/templates/badger/awards_list.html:18
 msgid "Awarded badges"
-msgstr ""
+msgstr "頒發過的獎章"
 
 #: badgus/base/templates/badger/badge_award.html:11
 #: badgus/base/templates/badger/badge_delete.html:11
@@ -108,43 +138,43 @@ msgstr ""
 #: badgus/base/templates/badger/manage_claims.html:13
 #: badgus/base/templates/badger/nomination_detail.html:10
 msgid "Badge: {badge_title}"
-msgstr ""
+msgstr "獎章: {badge_title}"
 
 #: badgus/base/templates/badger/badge_award.html:18
 #: badgus/base/templates/badger/badge_award.html:25
 #: badgus/base/templates/badger/badge_detail.html:103
 msgid "Issue badge awards"
-msgstr ""
+msgstr "頒發獎章"
 
 #: badgus/base/templates/badger/badge_create.html:11
 msgid "Create a badge"
-msgstr ""
+msgstr "建立一個獎章"
 
 #: badgus/base/templates/badger/badge_create.html:17
 msgid "Create badge"
-msgstr ""
+msgstr "建立獎章"
 
 #: badgus/base/templates/badger/badge_create.html:25
 msgid "This isn't a real badge, but it shows a few things you can do."
-msgstr ""
+msgstr "這不是真的獎章，但它可以證明你的能力。"
 
 #: badgus/base/templates/badger/badge_create.html:31
 #: badgus/base/templates/badger/includes/badge_full.html:21
 msgid "Title:"
-msgstr ""
+msgstr "標題："
 
 #: badgus/base/templates/badger/badge_create.html:32
 msgid "Test Badger"
-msgstr ""
+msgstr "測試獎章"
 
 #: badgus/base/templates/badger/badge_create.html:33
 msgid "Try to keep this to 5 words, or less."
-msgstr ""
+msgstr "儘量別超過五個英文單字（或九個中文字）"
 
 #: badgus/base/templates/badger/badge_create.html:36
 #: badgus/base/templates/badger/includes/badge_full.html:24
 msgid "Image:"
-msgstr ""
+msgstr "圖片"
 
 #: badgus/base/templates/badger/badge_create.html:38
 msgid ""
@@ -154,15 +184,18 @@ msgid ""
 "sizes and viewing distances. Lots of small details and words are hard to see "
 "when the badge image is either small or far away."
 msgstr ""
+"這張圖必須是正方形，大約 256x256 像素。系統將會自動裁切縮放超過此規格的圖片。"
+"儘量使用簡單的圖素讓不同的情況下都能清楚辨別。獎章圖片縮小或是從遠處看時，很"
+"多小細節和文字常會看不清楚。"
 
 #: badgus/base/templates/badger/badge_create.html:49
 #: badgus/base/templates/badger/includes/badge_full.html:27
 msgid "Description:"
-msgstr ""
+msgstr "描述："
 
 #: badgus/base/templates/badger/badge_create.html:50
 msgid "For having qualities like a test pilot, but more badgery."
-msgstr ""
+msgstr "頒發給優良的測試員"
 
 #: badgus/base/templates/badger/badge_create.html:51
 msgid ""
@@ -170,453 +203,479 @@ msgid ""
 "conditions and criteria a person would need to satisfy to receive this badge "
 "as an award."
 msgstr ""
+"在此欄位說明如何贏得此獎章。說明在什麼樣的情況和條件下才能符合取得此獎章的資"
+"格。"
 
 #: badgus/base/templates/badger/badge_create.html:58
 #: badgus/base/templates/badger/includes/badge_full.html:31
 msgid "Tags:"
-msgstr ""
+msgstr "標籤："
 
 #: badgus/base/templates/badger/badge_create.html:66
 msgid ""
-"Use tags to group your badge with others. These are like <a "
-"href=\"https://support.twitter.com/articles/49309-what-are-hashtags-symbols\" "
-"target=\"_blank\">hashtags on Twitter</a>. These <a "
-"href=\"http://twitter.pbworks.com/w/page/1779812/Hashtags\" "
-"target=\"_blank\">are best used sparingly</a>: Try not to enter more than 2-5 "
-"concise topics or keywords. Events often use tags to help gather badges that "
-"will be offered (eg. <a href=\"%(example_tag_url)s\" "
-"target=\"_blank\">A2makerfaire2012</a>)."
+"Use tags to group your badge with others. These are like <a href=\"https://"
+"support.twitter.com/articles/49309-what-are-hashtags-symbols\" target="
+"\"_blank\">hashtags on Twitter</a>. These <a href=\"http://twitter.pbworks."
+"com/w/page/1779812/Hashtags\" target=\"_blank\">are best used sparingly</a>: "
+"Try not to enter more than 2-5 concise topics or keywords. Events often use "
+"tags to help gather badges that will be offered (eg. <a href="
+"\"%(example_tag_url)s\" target=\"_blank\">A2makerfaire2012</a>)."
 msgstr ""
+"使用標籤以歸類此獎章。這就像 <a href=\"https://support.twitter.com/"
+"articles/49309-what-are-hashtags-symbols\" target=\"_blank\">Twitter 的 "
+"hashtags</a>。 請<a href=\"http://twitter.pbworks.com/w/page/1779812/Hashtags"
+"\" target=\"_blank\">謹慎使用</a>：儘量別輸入超過 2-5 個主題或關鍵字。 通常在"
+"舉辦活動時會用一個標籤以標識活動限定的獎章 (例如：<a href="
+"\"%(example_tag_url)s\" target=\"_blank\">A2makerfaire2012</a>)"
 
 #: badgus/base/templates/badger/badge_delete.html:18
 #: badgus/base/templates/badger/includes/badge_full.html:15
 msgid "Delete badge"
-msgstr ""
+msgstr "刪除獎章"
 
 #: badgus/base/templates/badger/badge_delete.html:24
 msgid ""
-"<span class=\"label label-warning\">Note:</span> Deleting this badge will also "
-"delete <a href=\"%(badge_url)s\"><span class=\"awards_count\">%"
-"(awards_count)s</span> award(s)</a>"
+"<span class=\"label label-warning\">Note:</span> Deleting this badge will "
+"also delete <a href=\"%(badge_url)s\"><span class=\"awards_count\">"
+"%(awards_count)s</span> award(s)</a>"
 msgstr ""
+"<span class=\"label label-warning\">附註：</span>刪除此獎章也會連帶刪去 <a "
+"href=\"%(badge_url)s\"><span class=\"awards_count\">%(awards_count)</span> 個"
+"頒發出去的獎章</a>"
 
 #: badgus/base/templates/badger/badge_delete.html:30
 msgid ""
-"<span class=\"label label-success\">Note:</span> No one has been awarded this "
-"badge, yet."
-msgstr ""
+"<span class=\"label label-success\">Note:</span> No one has been awarded "
+"this badge, yet."
+msgstr "<span class=\"label label-success\">附註：</span>尚未有人得到此獎章。"
 
 #: badgus/base/templates/badger/badge_delete.html:35
 msgid "Delete this badge, are you sure?"
-msgstr ""
+msgstr "你確定要刪除這個獎章嗎？"
 
 #: badgus/base/templates/badger/badge_delete.html:37
 msgid "Yes, delete badge"
-msgstr ""
+msgstr "是的，刪除獎章"
 
 #: badgus/base/templates/badger/badge_detail.html:71
 #: badgus/base/templates/badger/home.html:142
 #: badgus/base/templates/badger/home.html:157
 msgid "More..."
-msgstr ""
+msgstr "更多..."
 
 #: badgus/base/templates/badger/badge_detail.html:96
 msgid "Issue badge awards by email"
-msgstr ""
+msgstr "透過電子郵件核發獎章"
 
 #: badgus/base/templates/badger/badge_detail.html:112
 msgid "Submit nominations by email"
-msgstr ""
+msgstr "透過電子郵件送出提名"
 
 #: badgus/base/templates/badger/badge_detail.html:119
 #: badgus/base/templates/badger/badge_nominate_for.html:25
 msgid "Submit nominations"
-msgstr ""
+msgstr "送出提名"
 
 #: badgus/base/templates/badger/badge_detail.html:128
 msgid "Issue badge awards with claim codes"
-msgstr ""
+msgstr "透過認領碼核發獎章"
 
 #: badgus/base/templates/badger/badge_detail.html:137
 #: badgus/base/templates/badger/manage_claims.html:28
 msgid "{num} single-use claim codes"
-msgstr ""
+msgstr "{num} 組一次性認領碼"
 
 #: badgus/base/templates/badger/badge_detail.html:140
 #: badgus/base/templates/badger/manage_claims.html:31
 msgid "Generate"
-msgstr ""
+msgstr "產生"
 
 #: badgus/base/templates/badger/badge_detail.html:149
 #: badgus/base/templates/badger/manage_claims.html:40
 msgid "Delete"
-msgstr ""
+msgstr "刪除"
 
 #: badgus/base/templates/badger/badge_detail.html:156
 #: badgus/base/templates/badger/manage_claims.html:46
 msgid "{count} single-use codes"
-msgstr ""
+msgstr "{count} 組一次性認領碼"
 
 #: badgus/base/templates/badger/badge_detail.html:160
 #: badgus/base/templates/badger/manage_claims.html:50
 msgid "Download claim codes as printable PDF"
-msgstr ""
+msgstr "下載可列印的認領碼 PDF 檔"
 
 #: badgus/base/templates/badger/badge_detail.html:161
 #: badgus/base/templates/badger/manage_claims.html:51
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: badgus/base/templates/badger/badge_detail.html:166
 #: badgus/base/templates/badger/manage_claims.html:56
 msgid "1 reusable code"
-msgstr ""
+msgstr "1 組可重用認領碼"
 
 #: badgus/base/templates/badger/badge_edit.html:9
 msgid "Edit badge: {title}"
-msgstr ""
+msgstr "編輯獎章：{title}"
 
 #: badgus/base/templates/badger/badge_edit.html:17
 msgid "Save badge"
-msgstr ""
+msgstr "儲存獎章"
 
 #: badgus/base/templates/badger/badge_nominate_for.html:18
 msgid "Submit badge nominations"
-msgstr ""
+msgstr "送出獎章提名"
 
 #: badgus/base/templates/badger/badges_by_user.html:13
 #: badgus/profiles/templates/profiles/profile_view.html:103
 msgid "Badges created by {user}"
-msgstr ""
+msgstr "{user}建立的獎章"
 
 #: badgus/base/templates/badger/badges_list.html:11
 msgid ""
-"Badges tagged <a href=\"\" class=\"tag\"><i class=\"icon-tag icon-white\"></i> %"
-"(tag_name)s</a>"
+"Badges tagged <a href=\"\" class=\"tag\"><i class=\"icon-tag icon-white\"></"
+"i> %(tag_name)s</a>"
 msgstr ""
+"標籤為<a href=\"\" class=\"tag\"><i class=\"icon-tag icon-white\"></i> "
+"%(tag_name)s</a>的獎章"
 
 #: badgus/base/templates/badger/badges_list.html:15
 #: badgus/base/templates/badger/badges_list.html:25
 msgid "Create new badge"
-msgstr ""
+msgstr "建立新獎章"
 
 #: badgus/base/templates/badger/badges_list.html:20
 msgid "Badges search"
-msgstr ""
+msgstr "搜尋獎章"
 
 #: badgus/base/templates/badger/badges_list.html:22
 msgid "All badges"
-msgstr ""
+msgstr "所有獎章"
 
 #: badgus/base/templates/badger/badges_list.html:34
 msgid "We couldn't find any results for <strong>\"{query_string}\"</strong>"
-msgstr ""
+msgstr "<strong>\"{query_string}\"</strong> 找不到任何結果"
 
 #: badgus/base/templates/badger/badges_list.html:37
 msgid "Try searching for something else."
-msgstr ""
+msgstr "試著搜尋別的東西"
 
 #: badgus/base/templates/badger/badges_list.html:41
 msgid ""
-"Found <strong>{num}</strong> badges matching "
-"<strong>\"{query_string}\"</strong>"
+"Found <strong>{num}</strong> badges matching <strong>\"{query_string}\"</"
+"strong>"
 msgstr ""
+"找到 <strong>{num}</strong> 枚符合 <strong>\"{query_string}\"</strong> 的獎章"
 
 #: badgus/base/templates/badger/badges_list.html:49
 msgid "Recent awards for these badges"
-msgstr ""
+msgstr "最近頒發的獎章"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:19
 msgid "Award Claim"
-msgstr ""
+msgstr "認領獎章"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:33
 #: badgus/base/templates/badger/claim_deferred_award.html:59
 msgid "Claim"
-msgstr ""
+msgstr "認領"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:34
 msgid "Sign in to claim this badge award"
-msgstr ""
+msgstr "登入以認領此獎章"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:39
 #: badgus/base/templates/badger/home.html:56
 #: badgus/base/templates/registration/login.html:24
 msgid "Sign In with BrowserID"
-msgstr ""
+msgstr "使用 BrowserID 登入"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:48
 msgid "Grant"
-msgstr ""
+msgstr "核發"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:49
 msgid "You can grant this award to someone else"
-msgstr ""
+msgstr "你可以核發此獎章給別人"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:51
 msgid "Grant this award"
-msgstr ""
+msgstr "核發此獎章"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:62
 msgid ""
-"<p><span class=\"label label-warning\">Note:</span> <em>This award may not be "
-"intended for you.</em> Your email address does not match this award claim. "
-"</p>"
+"<p><span class=\"label label-warning\">Note:</span> <em>This award may not "
+"be intended for you.</em> Your email address does not match this award "
+"claim. </p>"
 msgstr ""
+"<p><span class=\"label label-warning\">附註：</span> <em>此獎章可能不是頒給你"
+"的。</em> 你的電子郵件不符合此認領碼。</p>"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:69
 msgid "You can claim this award for yourself"
-msgstr ""
+msgstr "你可以認領此獎章給自己"
 
 #: badgus/base/templates/badger/claim_deferred_award.html:71
 msgid "Claim this award"
-msgstr ""
+msgstr "認領此獎章"
 
 #: badgus/base/templates/badger/claims_list.html:13
 msgid "Claim codes for {badge}"
-msgstr ""
+msgstr "{badge} 的認領碼"
 
 #: badgus/base/templates/badger/home.html:7
 #: badgus/base/templates/badger/home.html:155
 msgid "Recently awarded badges"
-msgstr ""
+msgstr "最近頒發的獎章"
 
 #: badgus/base/templates/badger/home.html:10
 #: badgus/base/templates/badger/home.html:140
 msgid "Recently created badges"
-msgstr ""
+msgstr "最近建立的獎章"
 
 #: badgus/base/templates/badger/home.html:25
 msgid ""
-"This is a service for creating and issuing badges, based on <a "
-"href=\"https://github.com/mozilla/badges.mozilla.org\">Open&nbsp;Source</a> "
-"software and the <a href=\"http://www.openbadges.org/\">Mozilla OpenBadges</a> "
-"standard."
+"This is a service for creating and issuing badges, based on <a href="
+"\"https://github.com/mozilla/badges.mozilla.org\">Open&nbsp;Source</a> "
+"software and the <a href=\"http://www.openbadges.org/\">Mozilla OpenBadges</"
+"a> standard."
 msgstr ""
+"這是一個用來建立和頒發獎章的服務，基於<a href=\"https://github.com/mozilla/"
+"badges.mozilla.org\">開放原始碼</a>軟體以及<a href=\"http://www.openbadges."
+"org/\">Mozilla OpenBadges</a>標準。"
 
 #: badgus/base/templates/badger/home.html:33
 msgid ""
-"This is a service for the Mozilla community, using the <a "
-"href=\"http://www.openbadges.org/\">Mozilla OpenBadges</a> standard and <a "
-"href=\"https://github.com/mozilla/badges.mozilla.org\">Open&nbsp;Source</a> "
-"software."
+"This is a service for the Mozilla community, using the <a href=\"http://www."
+"openbadges.org/\">Mozilla OpenBadges</a> standard and <a href=\"https://"
+"github.com/mozilla/badges.mozilla.org\">Open&nbsp;Source</a> software."
 msgstr ""
+"這是為了 Mozilla 社群設計的服務，使用<a href=\"http://www.openbadges.org/"
+"\">Mozilla OpenBadges</a> 標準以及<a href=\"https://github.com/mozilla/"
+"badges.mozilla.org\">開放原始碼</a>軟體"
 
 #: badgus/base/templates/badger/home.html:44
 msgid "☺ View your profile"
-msgstr ""
+msgstr "☺檢視你的個人檔案"
 
 #: badgus/base/templates/badger/home.html:66
 #: badgus/base/templates/badger/home.html:76
 msgid "Have an idea for a badge?"
-msgstr ""
+msgstr "有關於獎章的點子嗎？"
 
 #: badgus/base/templates/badger/home.html:67
 msgid "Click here to start:"
-msgstr ""
+msgstr "按此開始："
 
 #: badgus/base/templates/badger/home.html:70
 #: badgus/base/templates/badger/home.html:80
 msgid "✸ Create a new badge"
-msgstr ""
+msgstr "✸ 建立一個新獎章"
 
 #: badgus/base/templates/badger/home.html:77
 msgid ""
 "You have a vouched mozillians.org profile, so you're welcome to create and "
 "issue badges here. Click here to start:"
 msgstr ""
+"你有一個已認證的 mozillians.org 帳號，所以你可以在此建立並頒發獎章。請點此開"
+"始："
 
 #: badgus/base/templates/badger/home.html:86
 msgid "Want to make badges here?"
-msgstr ""
+msgstr "想要製作一些獎章嗎？"
 
 #: badgus/base/templates/badger/home.html:87
 msgid ""
 "This service requires a vouched profile at mozillians.org associated with "
 "the email address used to sign in with Persona."
 msgstr ""
+"此服務需要一個已認證的 mozillians.org 帳號，並且電子郵件和此 Persona 登入帳號"
+"相同。"
 
 #: badgus/base/templates/badger/home.html:90
 msgid "✸ Learn about mozillians.org"
-msgstr ""
+msgstr "✸ 瞭解 mozillians.org"
 
 #: badgus/base/templates/badger/home.html:99
 msgid "Have a claim code?"
-msgstr ""
+msgstr "你有一組認領碼嗎？"
 
 #: badgus/base/templates/badger/home.html:100
 msgid "Type it here to claim your badge:"
-msgstr ""
+msgstr "在此輸入你的獎章認領碼："
 
 #: badgus/base/templates/badger/home.html:107
 msgid "Claim award from code"
-msgstr ""
+msgstr "使用認領碼認領獎章"
 
 #: badgus/base/templates/badger/home.html:143
 #: badgus/base/templates/badger/home.html:158
 msgid "Atom feed"
-msgstr ""
+msgstr "Atom 新聞摘要"
 
 #: badgus/base/templates/badger/manage_claims.html:20
 msgid "Manage claim codes"
-msgstr ""
+msgstr "管理認領碼"
 
 #: badgus/base/templates/badger/nomination_detail.html:17
 msgid "Nomination detail"
-msgstr ""
+msgstr "提名細節"
 
 #: badgus/base/templates/badger/nomination_detail.html:29
 msgid "Approve nomination"
-msgstr ""
+msgstr "核可提名"
 
 #: badgus/base/templates/badger/nomination_detail.html:38
 msgid "Accept your nomination"
-msgstr ""
+msgstr "接受你的提名"
 
 #: badgus/base/templates/badger/nomination_detail.html:40
 msgid "Accept nomination on behalf of nominee"
-msgstr ""
+msgstr "以被提名人的身份接受提名"
 
 #: badgus/base/templates/badger/nomination_detail.html:49
 msgid "Reject nomination"
-msgstr ""
+msgstr "駁回提名"
 
 #: badgus/base/templates/badger/nomination_detail.html:55
 msgid "Award:"
-msgstr ""
+msgstr "頒獎："
 
 #: badgus/base/templates/badger/nomination_detail.html:58
 msgid "Nominee:"
-msgstr ""
+msgstr "被提名人："
 
 #: badgus/base/templates/badger/nomination_detail.html:60
 msgid "Accepted?:"
-msgstr ""
+msgstr "接受嗎？"
 
 #: badgus/base/templates/badger/nomination_detail.html:61
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: badgus/base/templates/badger/nomination_detail.html:61
 #: badgus/base/templates/badger/nomination_detail.html:69
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: badgus/base/templates/badger/nomination_detail.html:62
 msgid "Nominator:"
-msgstr ""
+msgstr "提名者："
 
 #: badgus/base/templates/badger/nomination_detail.html:65
 msgid "Approver:"
-msgstr ""
+msgstr "核可者："
 
 #: badgus/base/templates/badger/nomination_detail.html:68
 msgid "Approved?:"
-msgstr ""
+msgstr "核可？"
 
 #: badgus/base/templates/badger/nomination_detail.html:72
 msgid "Rejected by:"
-msgstr ""
+msgstr "駁回者："
 
 #: badgus/base/templates/badger/nomination_detail.html:75
 msgid "Rejected reason:"
-msgstr ""
+msgstr "駁回理由："
 
 #: badgus/base/templates/badger/nomination_detail.html:79
 #: badgus/base/templates/badger/includes/badge_full.html:40
 msgid "Created:"
-msgstr ""
+msgstr "建立時間："
 
 #: badgus/base/templates/badger/nomination_detail.html:81
 #: badgus/base/templates/badger/includes/badge_full.html:42
 msgid "Modified:"
-msgstr ""
+msgstr "上次修改時間："
 
 #: badgus/base/templates/badger/staff_tools.html:18
 msgid "Grant badge claims"
-msgstr ""
+msgstr "核發獎章認領碼"
 
 #: badgus/base/templates/badger/includes/award_as_badge.html:4
 msgid "Award details"
-msgstr ""
+msgstr "頒獎細節"
 
 #: badgus/base/templates/badger/includes/award_full.html:2
 msgid "Awarded to:"
-msgstr ""
+msgstr "頒發給："
 
 #: badgus/base/templates/badger/includes/award_full.html:6
 msgid "(That's you!)"
-msgstr ""
+msgstr "（這是你耶！）"
 
 #: badgus/base/templates/badger/includes/award_full.html:10
 msgid "Nominated by:"
-msgstr ""
+msgstr "提名者："
 
 #: badgus/base/templates/badger/includes/award_full.html:12
 msgid "Approved by:"
-msgstr ""
+msgstr "核可者："
 
 #: badgus/base/templates/badger/includes/award_full.html:14
 msgid "(auto-approved)"
-msgstr ""
+msgstr "（自動核可）"
 
 #: badgus/base/templates/badger/includes/award_full.html:19
 msgid "Awarded by:"
-msgstr ""
+msgstr "頒發者"
 
 #: badgus/base/templates/badger/includes/award_full.html:24
 msgid "Awarded at:"
-msgstr ""
+msgstr "頒發時間："
 
 #: badgus/base/templates/badger/includes/award_full.html:27
 msgid "Explanation:"
-msgstr ""
+msgstr "說明："
 
 #: badgus/base/templates/badger/includes/awards_list.html:18
 msgid ""
-"<span class=\"badge_title\">%(title)s</span> <span class=\"relation\">awarded "
-"to</span> <span class=\"user\">%(user)s</span>"
+"<span class=\"badge_title\">%(title)s</span> <span class=\"relation"
+"\">awarded to</span> <span class=\"user\">%(user)s</span>"
 msgstr ""
+"<span class=\"badge_title\">%(title)s</span> <span class=\"relation\">頒發給"
+"</span> <span class=\"user\">%(user)s</span>"
 
 #: badgus/base/templates/badger/includes/badge_full.html:12
 msgid "Edit badge"
-msgstr ""
+msgstr "編輯獎章"
 
 #: badgus/base/templates/badger/includes/badge_full.html:38
 msgid "Creator:"
-msgstr ""
+msgstr "建立者："
 
 #: badgus/base/templates/badger/includes/pagination.html:3
 msgid "{start}&ndash;{end} of {total}"
-msgstr ""
+msgstr "{start}&ndash;{end} 共 {total} 枚"
 
 #: badgus/base/templates/badger/includes/pagination.html:8
 msgid "Go to the first page"
-msgstr ""
+msgstr "前往第一頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:11
 msgid "Go to the previous page"
-msgstr ""
+msgstr "前往上一頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:11
 msgid "Previous"
-msgstr ""
+msgstr "上一頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:14
 msgid "Go to the next page"
-msgstr ""
+msgstr "前往下一頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:14
 msgid "Next"
-msgstr ""
+msgstr "下一頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:17
 msgid "Go to the last page"
-msgstr ""
+msgstr "前往最末頁"
 
 #: badgus/base/templates/badger/includes/pagination.html:17
 msgid "Last"
-msgstr ""
+msgstr "最末頁"
 
 #: badgus/base/templates/notification/notice.html:1
 #: badgus/base/templates/notification/award_accepted/full.html:1
@@ -635,136 +694,156 @@ msgstr ""
 #: badgus/base/templates/notification/nomination_rejected/notice.html:1
 #: badgus/base/templates/notification/nomination_submitted/full.html:1
 msgid "%(notice)s"
-msgstr ""
+msgstr "%(notice)s"
 
 #: badgus/base/templates/notification/notice_settings.html:3
 #: badgus/base/templates/notification/notice_settings.html:9
 msgid "Notification Settings"
-msgstr ""
+msgstr "通知設定"
 
 #: badgus/base/templates/notification/notice_settings.html:13
 msgid "Primary email"
-msgstr ""
+msgstr "主要電子郵件"
 
 #: badgus/base/templates/notification/notice_settings.html:21
 msgid "Notification Type"
-msgstr ""
+msgstr "通知類型"
 
 #: badgus/base/templates/notification/notice_settings.html:39
 msgid "Change"
-msgstr ""
+msgstr "儲存更改"
 
 #: badgus/base/templates/notification/notices.html:3
 #: badgus/base/templates/notification/notices.html:9
 #: badgus/base/templates/notification/single.html:3
 msgid "Notices"
-msgstr ""
+msgstr "通知"
 
 #: badgus/base/templates/notification/notices.html:11
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: badgus/base/templates/notification/notices.html:12
 msgid "Mark all read"
-msgstr ""
+msgstr "全部標示為已讀。"
 
 #: badgus/base/templates/notification/notices.html:27
 msgid "No notices."
-msgstr ""
+msgstr "沒有任何通知。"
 
 #: badgus/base/templates/notification/single.html:9
 msgid "Notice"
-msgstr ""
+msgstr "通知"
 
 #: badgus/base/templates/notification/single.html:11
 msgid "View all notices"
-msgstr ""
+msgstr "檢視所有通知"
 
 #: badgus/base/templates/notification/award_received/notice.html:1
 msgid ""
-"You were <a href=\"%(award_url)s\">awarded</a> the badge <a href=\"%"
-"(badge_url)s\">%(badge_title)s</a>."
+"You were <a href=\"%(award_url)s\">awarded</a> the badge <a href="
+"\"%(badge_url)s\">%(badge_title)s</a>."
 msgstr ""
+"你 <a href=\"%(award_url)s\">贏得</a> 了 <a href=\"%(badge_url)s\">"
+"%(badge_title)s</a>獎章。"
 
 #: badgus/base/templates/notification/badge_awarded/notice.html:1
 msgid ""
-"<a href=\"%(badge_url)s\">%(badge_title)s</a> was <a href=\"%"
-"(award_url)s\">awarded</a> to <a href=\"%(user_url)s\">%(user_name)s</a>."
+"<a href=\"%(badge_url)s\">%(badge_title)s</a> was <a href=\"%(award_url)s"
+"\">awarded</a> to <a href=\"%(user_url)s\">%(user_name)s</a>."
 msgstr ""
+"<a href=\"%(badge_url)s\">%(badge_title)s</a> <a href=\"%(award_url)s\">頒發"
+"給</a> 了 <a href=\"%(user_url)s\">%(user_name)s</a>。"
 
 #: badgus/base/templates/notification/badge_edited/notice.html:1
 msgid "<a href=\"%(badge_url)s\">%(badge_title)s</a> was edited."
-msgstr ""
+msgstr "<a href=\"%(badge_url)s\">%(badge_title)s</a> 已編輯過。"
 
 #: badgus/base/templates/notification/nomination_accepted/notice.html:1
 msgid ""
-"<a href=\"%(user_url)s\">%(user_name)s</a> accepted a <a href=\"%"
-"(nomination_url)s\">nomination</a> for the badge <a href=\"%(badge_url)s\">%"
-"(badge_title)s</a>."
+"<a href=\"%(user_url)s\">%(user_name)s</a> accepted a <a href="
+"\"%(nomination_url)s\">nomination</a> for the badge <a href=\"%(badge_url)s"
+"\">%(badge_title)s</a>."
 msgstr ""
+"<a href=\"%(user_url)s\">%(user_name)s</a> 接受了 <a href=\"%(badge_url)s\">"
+"%(badge_title)s</a> 獎章的 <a href=\"%(nomination_url)s\">提名</a>。"
 
 #: badgus/base/templates/notification/nomination_approved/notice.html:1
 msgid ""
-"<a href=\"%(approver_url)s\">%(approver_user_name)s</a> approved the <a href=\""
-"%(nomination_url)s\">nomination</a> of <a href=\"%(user_url)s\">%"
-"(user_name)s</a> for the badge <a href=\"%(badge_url)s\">%(badge_title)s</a>."
+"<a href=\"%(approver_url)s\">%(approver_user_name)s</a> approved the <a href="
+"\"%(nomination_url)s\">nomination</a> of <a href=\"%(user_url)s\">"
+"%(user_name)s</a> for the badge <a href=\"%(badge_url)s\">%(badge_title)s</"
+"a>."
 msgstr ""
+"<a href=\"%(approver_url)s\">%(approver_user_name)s</a> 核可了 <a href="
+"\"%(user_url)s\">%(user_name)s</a> 的 <a href=\"%(badge_url)s\">"
+"%(badge_title)s</a>獎章 <a href=\"%(nomination_url)s\">提名</a> 。"
 
 #: badgus/base/templates/notification/nomination_received/notice.html:1
 msgid ""
-"You were <a href=\"%(nomination_url)s\">nominated</a> for the badge <a href=\"%"
-"(badge_url)s\">%(badge_title)s</a>. Want <a href=\"%(nomination_url)s\">to "
-"accept</a>?"
+"You were <a href=\"%(nomination_url)s\">nominated</a> for the badge <a href="
+"\"%(badge_url)s\">%(badge_title)s</a>. Want <a href=\"%(nomination_url)s"
+"\">to accept</a>?"
 msgstr ""
+"你被 <a href=\"%(nomination_url)s\">提名為</a> <a href=\"%(badge_url)s\">"
+"%(badge_title)s</a>獎章侯選人。 想要<a href=\"%(nomination_url)s\">接受它</a>"
+"嗎?"
 
 #: badgus/base/templates/notification/nomination_submitted/notice.html:2
 msgid ""
-"<a href=\"%(user_url)s\">%(user_name)s</a> was <a href=\"%"
-"(nomination_url)s\">nominated</a> by <a href=\"%(creator_url)s\">%"
-"(creator_user_name)s</a> for the badge <a href=\"%(badge_url)s\">%"
-"(badge_title)s</a>. Want to <a href=\"%(nomination_url)s\">approve it</a>?"
+"<a href=\"%(user_url)s\">%(user_name)s</a> was <a href=\"%(nomination_url)s"
+"\">nominated</a> by <a href=\"%(creator_url)s\">%(creator_user_name)s</a> "
+"for the badge <a href=\"%(badge_url)s\">%(badge_title)s</a>. Want to <a href="
+"\"%(nomination_url)s\">approve it</a>?"
 msgstr ""
+"<a href=\"%(creator_url)s\">%(creator_user_name)s</a> <a href="
+"\"%(nomination_url)s\">提名</a> <a href=\"%(user_url)s\">%(user_name)s</a> "
+"為 <a href=\"%(badge_url)s\">%(badge_title)s</a>獎章侯選人。要<a href="
+"\"%(nomination_url)s\">核可它</a>嗎?"
 
 #: badgus/base/templates/notification/nomination_submitted/notice.html:19
 msgid ""
-"<a href=\"%(user_url)s\">%(user_name)s</a> was <a href=\"%"
-"(nomination_url)s\">nominated</a> for the badge <a href=\"%(badge_url)s\">%"
-"(badge_title)s</a>. Want to <a href=\"%(nomination_url)s\">approve it</a>?"
+"<a href=\"%(user_url)s\">%(user_name)s</a> was <a href=\"%(nomination_url)s"
+"\">nominated</a> for the badge <a href=\"%(badge_url)s\">%(badge_title)s</"
+"a>. Want to <a href=\"%(nomination_url)s\">approve it</a>?"
 msgstr ""
+"<a href=\"%(user_url)s\">%(user_name)s</a> 被 <a href=\"%(nomination_url)s\">"
+"提名為</a> <a href=\"%(badge_url)s\">%(badge_title)s</a>獎章侯選人。要<a "
+"href=\"%(nomination_url)s\">核可</a>嗎?"
 
 #: badgus/base/templates/registration/login.html:10
 msgid "Sign out?"
-msgstr ""
+msgstr "登出？"
 
 #: badgus/base/templates/valet_keys/disable.html:7
 #: badgus/base/templates/valet_keys/history.html:8
 #: badgus/base/templates/valet_keys/new.html:38
 msgid "Created"
-msgstr ""
+msgstr "建立時間"
 
 #: badgus/base/templates/valet_keys/disable.html:9
 #: badgus/base/templates/valet_keys/history.html:10
 #: badgus/base/templates/valet_keys/new.html:40
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: badgus/base/templates/valet_keys/disable.html:15
 msgid "Disable"
-msgstr ""
+msgstr "停用"
 
 #: badgus/base/templates/valet_keys/disable.html:16
 #: badgus/base/templates/valet_keys/new.html:19
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: badgus/base/templates/valet_keys/history.html:6
 #: badgus/base/templates/valet_keys/new.html:44
 msgid "Return to the key list"
-msgstr ""
+msgstr "回到金鑰列表。"
 
 #: badgus/base/templates/valet_keys/history.html:14
 msgid "This key has not been used yet."
-msgstr ""
+msgstr "此金鑰尚未被使用。"
 
 #: badgus/base/templates/valet_keys/list.html:6
 msgid ""
@@ -774,41 +853,46 @@ msgid ""
 "click the <span class=\"button\">X</span> to delete the key. It's easy to "
 "create a replacement key at any time."
 msgstr ""
+"這些是你的代理金鑰。它們可以讓應用程式以你的代理身份執行任務。如果你停使止使"
+"用任何一個金鑰，或者懷疑有金鑰洩露給你不信任的第三方，請按下 <span class="
+"\"button\">X</span> 以刪除金鑰。隨時想要建立新的替代金鑰都是很方便的。"
 
 #: badgus/base/templates/valet_keys/list.html:13
 msgid "Create a new key"
-msgstr ""
+msgstr "建立新的金鑰"
 
 #: badgus/base/templates/valet_keys/list.html:15
 msgid "You have no valet keys, yet."
-msgstr ""
+msgstr "你還沒有任何代理金鑰。"
 
 #: badgus/base/templates/valet_keys/list.html:27
 msgid "View key usage history"
-msgstr ""
+msgstr "檢視金鑰存取歷史紀錄"
 
 #: badgus/base/templates/valet_keys/list.html:28
 msgid "History ({count})"
-msgstr ""
+msgstr "歷史紀錄（{count}）"
 
 #: badgus/base/templates/valet_keys/list.html:31
 msgid "Disable key"
-msgstr ""
+msgstr "停用金鑰"
 
 #: badgus/base/templates/valet_keys/list.html:32
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: badgus/base/templates/valet_keys/new.html:8
 msgid ""
-"<span class=\"label label-warning\">Note:</span> Try to be as clear as you can "
-"be in this description. This will be your only means of identifying this "
+"<span class=\"label label-warning\">Note:</span> Try to be as clear as you "
+"can be in this description. This will be your only means of identifying this "
 "key later, other than the date and time of its creation."
 msgstr ""
+"<span class=\"label label-warning\">附註：</span>儘量清楚描述此金鑰的用途。除"
+"了建立時間以外，這是你之後唯一可以辨別金鑰的方式。"
 
 #: badgus/base/templates/valet_keys/new.html:18
 msgid "Create new key"
-msgstr ""
+msgstr "建立新金鑰"
 
 #: badgus/base/templates/valet_keys/new.html:23
 msgid ""
@@ -816,69 +900,73 @@ msgid ""
 "create a new key. This information will never be displayed again, and cannot "
 "be recovered if lost."
 msgstr ""
+"<span class=\"label label-warning\">附註：</span>重新整理此頁將會建立新的金"
+"鑰。這些資訊將不會再次出現，若遺失也無法再找回。"
 
 #: badgus/base/templates/valet_keys/new.html:29
 msgid ""
-"<p>Your new key has been created. Please make a note of the details below "
-"(e.g. by copying them into your application's settings).</p>"
+"<p>Your new key has been created. Please make a note of the details below (e."
+"g. by copying them into your application's settings).</p>"
 msgstr ""
+"<p>你的新金鑰已經建立好了。請記下下方附註的細節（你可以直接複製貼上到你的應用"
+"程式設定中）。</p>"
 
 #: badgus/base/templates/valet_keys/new.html:34
 msgid "User name"
-msgstr ""
+msgstr "使用者名稱"
 
 #: badgus/base/templates/valet_keys/new.html:36
 msgid "Password"
-msgstr ""
+msgstr "密碼："
 
 #: badgus/profiles/forms.py:45
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱："
 
 #: badgus/profiles/forms.py:47
 msgid "Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only."
-msgstr ""
+msgstr "必填欄位。30 字以下。只能包含英數字以及 @/./+/-/_ 等字元。"
 
 #: badgus/profiles/forms.py:49
 msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
-msgstr ""
+msgstr "此欄位只能包含英數字以及 @/./+/-/_ 等字元。"
 
 #: badgus/profiles/forms.py:60
 msgid "Changes remaining: %s"
-msgstr ""
+msgstr "可更改次數剩餘：%s"
 
 #: badgus/profiles/forms.py:67
 msgid "New username already taken by another profile"
-msgstr ""
+msgstr "新使用者名稱已經有人使用"
 
 #: badgus/profiles/models.py:180
 msgid "Cannot process image"
-msgstr ""
+msgstr "無法解析圖片"
 
 #: badgus/profiles/templates/profiles/profile_view.html:17
 msgid "Profile: {user}"
-msgstr ""
+msgstr "個人檔案：{user}"
 
 #: badgus/profiles/templates/profiles/profile_view.html:34
 msgid "Edit profile"
-msgstr ""
+msgstr "編輯個人檔案"
 
 #: badgus/profiles/templates/profiles/profile_view.html:35
 msgid "View notifications"
-msgstr ""
+msgstr "檢視通知"
 
 #: badgus/profiles/templates/profiles/profile_view.html:36
 msgid "Manage notification settings"
-msgstr ""
+msgstr "管理通知設定"
 
 #: badgus/profiles/templates/profiles/profile_view.html:37
 msgid "Valet keys are credentials for use with the API"
-msgstr ""
+msgstr "代理金鑰（Valet Keys）是 API 使用的安全認證資訊"
 
 #: badgus/profiles/templates/profiles/profile_view.html:37
 msgid "Manage valet keys"
-msgstr ""
+msgstr "管理代理金鑰"
 
 #: badgus/profiles/templates/profiles/profile_view.html:87
 msgid "Recently awarded badges for {user}"
-msgstr ""
+msgstr "最近頒發給 {user} 的獎章"
