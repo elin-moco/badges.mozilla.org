@@ -18,16 +18,17 @@ def moztech_award_ceremony():
                 awardees = r.zrangebyscore(rule.key, rule.min, rule.max)
             elif rule.type == 'h':
                 awardees = r.hmget(rule.key, rule.min)
-            batch_award(badge, awardees)
-        except RuntimeError as e:
+            if awardees:
+                batch_award(badge, awardees)
+        except Exception as e:
             print e
 
 
 def batch_award(badge, awardees):
-    awardees = [u'%s' % x for x in awardees]
-    print len(awardees)
+    awardees = [u'%s' % x for x in awardees if x]
+    print 'Awardees: %s' % len(awardees)
     emails = filter_awarded(badge, awardees)
-    print len(emails)
+    print 'Filtered: %s' % len(emails)
     users = User.objects.filter(email__in=emails)
     for user in users:
         emails.remove(user.email)
@@ -35,9 +36,9 @@ def batch_award(badge, awardees):
         a.save()
 
     for email in emails:
-        pass
-        da = DeferredAward(badge=badge, email=email)
-        da.save()
+        if email:
+            da = DeferredAward(badge=badge, email=email)
+            da.save()
 
 
 def filter_awarded(badge, awardees):

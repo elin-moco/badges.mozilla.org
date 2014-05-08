@@ -16,7 +16,7 @@ class AwardingRule:
         self.type = type
 
 MOZTECH_AWARD_RULES = {
-    '謀智台客徽章': AwardingRule('moztech-authors', type='s'),
+    '謀智台客徽章': AwardingRule('moztech-author-emails', type='s'),
     '發文1篇': AwardingRule('moztech-author-posts', 1),
     '發文2篇': AwardingRule('moztech-author-posts', 2),
     '發文5篇': AwardingRule('moztech-author-posts', 5),
