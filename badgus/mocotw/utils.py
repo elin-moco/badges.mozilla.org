@@ -30,14 +30,15 @@ def batch_award(badge, awardees):
     emails = filter_awarded(badge, awardees)
     print 'Filtered: %s' % len(emails)
     users = User.objects.filter(email__in=emails)
+    creator = User.objects.get(pk=1)
     for user in users:
         emails.remove(user.email)
-        a = Award(badge=badge, user=user)
+        a = Award(badge=badge, user=user, creator=creator)
         a.save()
 
     for email in emails:
         if email:
-            da = DeferredAward(badge=badge, email=email)
+            da = DeferredAward(badge=badge, email=email, creator=creator)
             da.save()
 
 
