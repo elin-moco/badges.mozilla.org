@@ -4,6 +4,8 @@ from . import base
 import sys
 
 INSTALLED_APPS = [
+    'gunicorn', 
+    'jingo_minify',
     'badgus.mocotw',
 ] + list(base.INSTALLED_APPS)
 
@@ -48,3 +50,4 @@ MOZTECH_AWARD_RULES = {
     '謀智台客文章破五百': AwardingRule('moztech-nth-post-author', 500, type='h'),
     '謀智台客文章破千': AwardingRule('moztech-nth-post-author', 1000, type='h'),
 }
+
