@@ -255,15 +255,15 @@ a.tag .count:after { content: ")"; }
 .claim_groups form { display: inline }
 
 #claims_list .deferred_awards { list-style: none; }
-#claims_list .deferred_awards li { width: 200px; float: left; position: relative;
+#claims_list .deferred_awards li { width: 160px; display: inline-block; position: relative;
     border: 1px solid #ccc; border-radius: 8px; padding: 1em; margin: 1em; }
 #claims_list .deferred_awards li h3 { text-align: center; }
 #claims_list .deferred_awards li a.code { display: block; text-align: center;
     padding: 0.125em; }
-#claims_list .deferred_awards li a.code code {font-size: 2.25em; display: block; }
+#claims_list .deferred_awards li a.code code {font-size: 2em; display: block; }
 #claims_list .deferred_awards li img.qrcode { display: block; margin: 0 0 0 0; }
-#claims_list .deferred_awards li code.url { display: block; font-size: 0.9em;
-    text-align: center; margin: 0.5em 0 0 0 }
+#claims_list .deferred_awards li code.url { display: block; font-size: 0.6em;
+    text-align: center; margin: 0.5em 0 0 0; }
 
 #badge_detail textarea { height: 5.5em; }
 

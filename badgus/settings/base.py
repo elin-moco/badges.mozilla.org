@@ -25,6 +25,9 @@ MINIFY_BUNDLES = {
         'bootstrap': (
             'bootstrap/css/bootstrap.css',
             'bootstrap/css/bootstrap-responsive.css',
+        ),
+        'claim_list_print': (
+            'css/claim_list_print.less.css',
         )
     },
     'js': {
