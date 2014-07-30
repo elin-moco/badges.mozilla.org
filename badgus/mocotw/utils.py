@@ -2,7 +2,30 @@ from django.contrib.auth.models import User
 import redis
 from badger import Badge, Award
 from badger.models import DeferredAward
-from badgus.settings import MOZTECH_AWARD_RULES
+from badgus.settings import MOZTECH_AWARD_RULES, MOZTECH_AUTHORS_FILE
+import csv
+
+
+def export_authors():
+    with open(MOZTECH_AUTHORS_FILE, 'r') as authors_file:
+        authors = csv.reader(authors_file, delimiter=',')
+        authorBadges = {}
+        authorSlugs = {}
+        for author in authors:
+            id = author[0].strip()
+            email = author[1].strip()
+            user = User.objects.filter(email=email)
+            if user.exists():
+                authorSlugs[id] = user[0].username
+            awardCount = Award.objects.filter(user__email=email).count()
+            defawardCount = DeferredAward.objects.filter(email=email).count()
+            authorBadges[id] = awardCount + defawardCount
+        print authorBadges
+        r = redis.Redis('localhost')
+        r.delete('moztech-author-badges')
+        r.delete('moztech-author-badges-slug')
+        r.hmset('moztech-author-badges', authorBadges)
+        r.hmset('moztech-author-badges-slug', authorSlugs)
 
 
 def moztech_award_ceremony():

@@ -51,3 +51,4 @@ MOZTECH_AWARD_RULES = {
     '謀智台客文章破千': AwardingRule('moztech-nth-post-author', 1000, type='h'),
 }
 
+MOZTECH_AUTHORS_FILE = '/home/elin/sql/moztech_names.csv'
